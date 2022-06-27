@@ -1,6 +1,6 @@
 import  DcPage from './DcPage';
-import MarvelPage from './MarvelPage';
 import HeroPage from './HeroPage.jsx';
+import MarvelPage from './MarvelPage';
 import SearchPage from './SearchPage';
 
 export {DcPage, MarvelPage, HeroPage, SearchPage}
