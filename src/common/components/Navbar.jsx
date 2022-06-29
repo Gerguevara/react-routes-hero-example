@@ -17,7 +17,7 @@ export const Navbar = () => {
         <div className="navbar-nav">
           <NavLink
             className={({ isActive }) => `nav-item nav-link
-                        ${isActive ? "text-danger text-bold" : ""} `}
+                        ${isActive ? "text-info text-bold" : ""} `}
             to="/marvel"
           >
             Marvel
@@ -25,7 +25,7 @@ export const Navbar = () => {
 
           <NavLink
             className={({ isActive }) => `nav-item nav-link
-                        ${isActive ? "text-danger text-bold" : ""} `}
+                        ${isActive ? "text-info text-bold" : ""} `}
             to="/dc"
           >
             DC
@@ -36,7 +36,7 @@ export const Navbar = () => {
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ml-auto">
           <a
-            className="link-danger"
+            className="link-danger clickable" 
             onClick={handleLogout}
           >
             Logout
